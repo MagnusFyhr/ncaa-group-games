@@ -34,6 +34,46 @@ p.score {
   color: #16a085;
 }
 
+.navbar {
+  background: linear-gradient(45deg, #EF7F4D, #B54213);
+  margin-bottom: 20px;
+}
+
+.nav-button {
+  cursor: pointer;
+  color: #fff;
+  padding: 15px 25px;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 25px !important;
+  background: linear-gradient(45deg, #EF7F4D, #B54213);
+  border-color: #161616;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.1s ease-in-out;
+  margin: 10px 0;
+  margin-left: 10px !important;
+}
+
+.nav-button:hover {
+  transform: scale(1.05);
+}
+
+.input-container {
+  margin-bottom: 10px;
+}
+
+.input-container input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.input-container select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
 button {
   border: 0;
   outline: none;
@@ -43,7 +83,8 @@ button {
   font-size: 18px;
   font-weight: 500;
   border-radius: 25px;
-  background: linear-gradient(45deg, #3498db, #9b59b6);
+  background: linear-gradient(45deg, #EF7F4D, #B54213);
+  border-color: #161616;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   transition: transform 0.1s ease-in-out;
   margin: 10px 0;

@@ -9,7 +9,7 @@ services:
       DB_HOST: db
       DB_USER: postgres
       DB_PASSWORD: postgres
-      DB_NAME: captrivia
+      DB_NAME: march_16
       DB_PORT: 5432
     depends_on:
       - db
@@ -27,9 +27,6 @@ services:
       - type: bind
         source: ./frontend
         target: /app
-      - type: volume
-        source: node_modules
-        target: /app/node_modules
     environment:
       REACT_APP_BACKEND_URL: http://localhost:8080
     depends_on:
@@ -42,7 +39,7 @@ services:
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
-      POSTGRES_DB: captrivia
+      POSTGRES_DB: march_16
     volumes:
       - type: volume
         source: postgres_data
